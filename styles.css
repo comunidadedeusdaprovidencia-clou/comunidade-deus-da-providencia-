@@ -53,3 +53,27 @@
   max-width: 45px !important;
   object-fit: contain !important;
 }
+
+/* TEMA AZUL-ESCURO */
+body {
+  background: #071a3a !important;
+  color: #f4f7ff !important;
+}
+
+.site-header {
+  background: #071a3a !important;
+  color: #ffffff !important;
+}
+
+.site-footer {
+  background: #050f25 !important;
+  color: #ffffff !important;
+}
+
+.nav a {
+  color: #ffffff !important;
+}
+
+.nav a:hover {
+  color: #e8b95b !important;
+}
