@@ -34,4 +34,13 @@
 .memorial-copy blockquote{background:#fff;border-left-color:#e8bd62}
 @media(max-width:900px){.nav{background:#071a3a}.nav a{color:#fff}.nav-cta{color:#071a3a!important}}
 .brand-logo{display:block;width:54px;height:54px;object-fit:contain;flex:0 0 auto;background:#fff;border-radius:50%;padding:3px;box-shadow:0 0 0 2px #e8bd62}
-.footer-brand .brand-logo{width:48px;height:48px}
+.footer-brand .brand-logo{width:48px;height:48px} /* Ajuste final do logo e do fundo */
+.brand-logo {
+  width: 65px !important;
+  height: 65px !important;
+  object-fit: contain;
+}
+
+.site-header {
+  background: #071a3a !important;
+}
