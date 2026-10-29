@@ -14,3 +14,24 @@
 .memorial-copy blockquote{margin:24px 0 0;padding:16px 20px;border-left:4px solid #d7ad54;background:#fff;border-radius:0 12px 12px 0;color:#102c55;font-family:'Playfair Display',Georgia,serif;font-size:18px}
 .memorial-copy cite{display:block;font-family:'DM Sans',Arial,sans-serif;font-size:14px;font-style:normal;margin-top:8px;color:#657184}
 @media(max-width:760px){.memorial-layout{grid-template-columns:1fr}.memorial-photo-wrap{max-width:480px;margin:0 auto}.memorial-copy{max-width:650px;margin:0 auto}}
+
+
+/* Tema azul-escuro: identidade visual revisada */
+:root{--navy:#071a3a;--blue:#0b2d63;--gold:#e8bd62;--cream:#eef3fa;--ink:#142440;--muted:#52627b;--line:#d4deec}
+.site-header{background:#071a3a;color:#fff;box-shadow:0 6px 24px #03102755}
+.brand{color:#fff}
+.brand small{color:#d7e4f7}
+.nav a{color:#eef4ff}
+.nav a:hover,.text-link:hover{color:#e8bd62}
+.nav-cta,.menu-toggle{background:#e8bd62;color:#071a3a}
+.nav-cta:hover{background:#f3d58f;color:#071a3a}
+.hero{background-image:linear-gradient(90deg,#031027f2 0%,#071a3ad9 48%,#0b2d6370 100%),url('assets/fachada-comunidade.jpg')}
+.section-heading h2,.lead,blockquote,.mini-card h3,.event-card h3,.agenda-info h3,.agenda-price strong,.contact-panel h3,.memorial-copy h2{color:#071a3a}
+.history,.gallery{background:#eaf0f9}
+.mission-band{background-image:radial-gradient(circle at 20% 20%,#ffffff12 0 1px,transparent 2px),linear-gradient(120deg,#06142f,#0b2d63)}
+.site-footer{background:#030d20}
+.memorial-section{background:linear-gradient(135deg,#e8eef8,#f7f9fd)}
+.memorial-copy blockquote{background:#fff;border-left-color:#e8bd62}
+@media(max-width:900px){.nav{background:#071a3a}.nav a{color:#fff}.nav-cta{color:#071a3a!important}}
+.brand-logo{display:block;width:54px;height:54px;object-fit:contain;flex:0 0 auto;background:#fff;border-radius:50%;padding:3px;box-shadow:0 0 0 2px #e8bd62}
+.footer-brand .brand-logo{width:48px;height:48px}
