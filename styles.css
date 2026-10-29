@@ -77,3 +77,27 @@ body {
 .nav a:hover {
   color: #e8b95b !important;
 }
+
+
+/* Corrige a tela branca no celular */
+@media (max-width: 768px) {
+  .hero {
+    display: block !important;
+    min-height: 520px !important;
+    height: auto !important;
+    background-color: #071a3a !important;
+  }
+
+  .hero-shade,
+  .hero-content {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+
+  .hero-content {
+    position: relative !important;
+    padding: 40px 20px !important;
+    color: #ffffff !important;
+  }
+}
