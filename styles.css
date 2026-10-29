@@ -43,3 +43,13 @@
     height: 50px !important;
   }
 }
+
+
+  /* Diminuir o logotipo do rodapé */
+.site-footer .brand-logo,
+.footer-brand .brand-logo {
+  width: 45px !important;
+  height: 45px !important;
+  max-width: 45px !important;
+  object-fit: contain !important;
+}
