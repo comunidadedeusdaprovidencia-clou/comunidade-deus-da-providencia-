@@ -78,3 +78,31 @@
 .site-header {
   background: #071a3a !important;
 }
+
+/* CORREÇÃO DA TELA BRANCA NO CELULAR */
+@media (max-width: 768px) {
+  .hero {
+    min-height: 570px !important;
+    height: auto !important;
+    background-color: #071a3a !important;
+    background-image: none !important;
+  }
+
+  .hero-shade {
+    display: none !important;
+  }
+
+  .hero-content {
+    display: block !important;
+    position: relative !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    color: #ffffff !important;
+    padding: 70px 20px !important;
+  }
+
+  .hero-content h1,
+  .hero-content p {
+    color: #ffffff !important;
+  }
+}
