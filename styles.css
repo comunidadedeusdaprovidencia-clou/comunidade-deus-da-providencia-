@@ -110,9 +110,7 @@ body {
     min-height: 520px !important;
     height: auto !important;
     background-color: #071a3a !important;
-    background-image: none !important;
-  }
-
+   } 
   .hero-shade,
   .hero-content {
     display: block !important;
