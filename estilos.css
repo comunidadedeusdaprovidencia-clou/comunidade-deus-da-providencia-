@@ -82,8 +82,8 @@
 /* CORREÇÃO DA TELA BRANCA NO CELULAR */
 @media (max-width: 768px) {
   .hero {
-    min-height: 570px !important;
-    height: auto !important;
+    min-height: 260px !important;
+    height: 360px !important;
     background-color: #071a3a !important;
     background-image: none !important;
   }
